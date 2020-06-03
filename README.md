@@ -1,8 +1,10 @@
 # Bot Discord de gestion d'emploi du temps
-C'est un bot discord qui permet de gérer un emploi du temps facilement. Il a été créé pour avoir un emploi du temps des cours en visioconférence directement sur discord lors du confinement de la France en 2020 à cause du Covid-19.
+C'est un bot discord qui permet de gérer un emploi du temps facilement. Il a été créé pour avoir un emploi du temps des cours en visioconférence directement sur discord.\
 Le bot a été créé par Selsei et moi.
 
+Screenshot du bot en fonctionnement dans discord :
 ![Screenshot du bot](EDT_exemple_discord.png?raw=true "Screenshot du bot en fonctionnement dans discord")
+Fichier png d'un emploi du temps généré par le bot :
 ![Screenshot du bot](EDT_exemple.png?raw=true "Fichier png d'un emploi du temps généré par le bot")
 
 Si vous avez besoin d'aide pour le configurer, n'hésitez pas à me demander. Vous pouvez aussi me demander si vous voulez d'autres fonctionnalités en ouvrant une issue sur github.
@@ -22,7 +24,7 @@ Il faut ensuite lancer le bot avec python 3 (au moins python 3.6)
 
 
 ## Fonctionnement du bot :
-Le bot fonctionne avec :\
+Le bot fonctionne avec :
 - une base de donnée sqlite3 qui stocke tous les cours de tous les serveurs.\
 - une image png de l'emploi du temps qui est crée à chaque changement de cours (quand on utilise la commande ajouter, supprimer ou renommer).
 
@@ -31,5 +33,5 @@ On peut utiliser ce bot sur autant de serveurs que l'on veut, les emplois du tem
 
 ## Modules nécessaires:
 Les modules nécessaires sont les suivants (ils peuvent être installés avec pip):\
-- discord (>= 1.0)\
+- discord (>= 1.0)
 - pillow
