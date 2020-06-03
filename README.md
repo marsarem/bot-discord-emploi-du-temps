@@ -3,8 +3,11 @@ C'est un bot discord qui permet de gérer un emploi du temps facilement. Il a é
 Le bot a été créé par Selsei et moi.
 
 Screenshot du bot en fonctionnement dans discord :
+
 ![Screenshot du bot](EDT_exemple_discord.png?raw=true "Screenshot du bot en fonctionnement dans discord")
+
 Fichier png d'un emploi du temps généré par le bot :
+
 ![Screenshot du bot](EDT_exemple.png?raw=true "Fichier png d'un emploi du temps généré par le bot")
 
 Si vous avez besoin d'aide pour le configurer, n'hésitez pas à me demander. Vous pouvez aussi me demander si vous voulez d'autres fonctionnalités en ouvrant une issue sur github.
