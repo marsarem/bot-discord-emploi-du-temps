@@ -28,13 +28,13 @@ Il faut ensuite lancer le bot avec python 3 (au moins python 3.6)
 
 ## Fonctionnement du bot :
 Le bot fonctionne avec :
-- une base de donnée sqlite3 qui stocke tous les cours de tous les serveurs.\
+- une base de donnée sqlite3 qui stocke tous les cours de tous les serveurs.
 - une image png de l'emploi du temps qui est crée à chaque changement de cours (quand on utilise la commande ajouter, supprimer ou renommer).
 
 On peut utiliser ce bot sur autant de serveurs que l'on veut, les emplois du temps sont spécifique à chaque serveur. Pour utiliser le même emploi du temps dans plusieurs serveur, c'est possible mais il faut le définir dans le code.
 
 
 ## Modules nécessaires:
-Les modules nécessaires sont les suivants (ils peuvent être installés avec pip):\
+Les modules nécessaires sont les suivants (ils peuvent être installés avec pip):
 - discord (>= 1.0)
 - pillow
