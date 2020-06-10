@@ -396,6 +396,8 @@ class Cours():
 	def chercherUnCours_add(self,jour,heure_debut,heure_fin,serveur):
 		def mettreHeureEnForme(string):
 			string = str(string)
+			if "." in string:
+				return float(string)
 			if 'h' not in string:
 				return int(string)
 			liste = string.lower().split("h")
